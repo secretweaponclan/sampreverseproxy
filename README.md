@@ -1,5 +1,8 @@
 
 # SA:MP Reverse Proxy
+> [!NOTE]
+> Unreliable anymore for fixing PT. TELKOM INDONESIA ping, because it's now defaultly fixed, thanks PT. TELKOM INDONESIA for fixing known issue from 2021 in Feb 2026 lol.
+
 Used for port forwarding from main VPS (running SAMP) to second VPS. I used this because my main VPS latency is high when connected to PT. TELKOM INDONESIA providers (Indihome, Telkomsel), which my VPS is OVH Singapore, and I thinked of forwarding this OVH VPS to another VPS with lower latency.
 ## First Step
  - Get frp (fast reverse proxy) from [here](https://github.com/fatedier/frp). Use right build (I'm using amd64).
